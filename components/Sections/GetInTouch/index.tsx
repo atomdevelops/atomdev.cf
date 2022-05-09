@@ -39,7 +39,7 @@ const GetInTouch = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Say hi!{' '}
+        Say hello!{' '}
         <Text as="span" fontSize="2xl" variant="emphasis">
           <motion.div
             style={{ display: 'inline-block' }}
@@ -52,18 +52,15 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-        Though, I am fairly introverted myself. I do reply to messages as long
-        as my human interaction battery lasts. Coding, work, movies or even weeb
-        stuff, anything is cool. So feel free to message me on any of my social
-        media or shoot me an{' '}
+        If you need anything or have any questions, you can shoot me an{' '}
         <Link
           href="mailto:atomdevelops@proton.me"
           target="_blank"
           rel="noreferrer"
         >
           email
-        </Link>
-        .
+        </Link>{' '}
+        anytime and I'll make sure to respond!
       </Text>
 
       <Box

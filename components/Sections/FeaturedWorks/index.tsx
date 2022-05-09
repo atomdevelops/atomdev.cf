@@ -31,9 +31,30 @@ const FeaturedWorksSection = () => {
         Some of my works.
       </Heading>
       <Text variant="description">
-        Most of my projects are privated, but I'm working on a few which will be
-        public soon.
+        Check out some of my projects so far. Most of my biggest projects are
+        privated as they're not supposed to be open-source but I'm working on
+        some open-source projects to showcase.
       </Text>
+
+      <MotionGrid
+        templateRows="repeat(1, 1fr)"
+        templateColumns="repeat(6, 1fr)"
+        gap={{ base: 5, md: 6 }}
+        variants={galleryStagger}
+      >
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={1}
+            title="My portfolio"
+            src="/atom.png"
+            description="My custom-made portfolio website which you're currently using made with TypeScript, Next.js, and Chakra UI."
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl="https://atomdev.cf"
+            objectPosition="right 20%"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
+      </MotionGrid>
     </Stack>
   )
 }

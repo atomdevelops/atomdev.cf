@@ -10,7 +10,46 @@ import {
 } from '@chakra-ui/react'
 import { Article } from 'types/article'
 
-const DevToArticles = ({ articles }: { articles: Article[] }) => {
+// export interface Article {
+//   id: string
+//   type_of: string
+//   title: string
+//   description: string
+//   readable_publish_date: string
+//   slug: string
+//   url: string
+//   tag_list: string[]
+//   social_image: string
+// }
+
+const articles = [
+  {
+    id: 'Python 101',
+    type_of: 'h',
+    title: 'Python 101: Getting Started With Python',
+    description: 'Get started with Python',
+    readable_publish_date: 'May 7, 2022',
+    slug: 'getting-started-with-python',
+    url: 'https://atomdevelops.hashnode.dev/python-101-getting-started-with-python',
+    tag_list: ['algorithms', 'learn-coding', 'python', 'python-beginner'],
+    social_image: 'none',
+  },
+  {
+    id: 'Python 101',
+    type_of: 'h',
+    tag_list: ['algorithms', 'learn-coding', 'python', 'python-beginner'],
+    title:
+      'Python 101: Syntax, Comments, Variables, Data Types, Numbers, and Type Casting',
+    description:
+      'Learn about Python syntax, comments, variabes, types, numbers, and casting in one tutorial!',
+    readable_publish_date: 'May 8, 2022',
+    slug: 'basic-beginner-topics',
+    url: 'https://atomdevelops.hashnode.dev/python-101-syntax-comments-variables-data-types-numbers-and-type-casting',
+    social_image: 'None',
+  },
+]
+
+const DevToArticles = () => {
   const bg = useColorModeValue('blackAlpha.50', 'whiteAlpha.100')
   const borderColor = useColorModeValue('blackAlpha.300', 'whiteAlpha.100')
   const alphaHover = useColorModeValue(
