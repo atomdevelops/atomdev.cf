@@ -46,7 +46,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={1}
             title="My portfolio"
-            src="/atom.png"
+            src="/portfolio.png"
             description="My custom-made portfolio website which you're currently using made with TypeScript, Next.js, and Chakra UI."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://atomdev.cf"

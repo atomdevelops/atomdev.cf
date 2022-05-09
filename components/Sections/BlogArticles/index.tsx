@@ -29,7 +29,7 @@ const articles = [
     description: 'Get started with Python',
     readable_publish_date: 'May 7, 2022',
     slug: 'getting-started-with-python',
-    url: 'https://atomdevelops.hashnode.dev/python-101-getting-started-with-python',
+    url: 'https://blog.atomdev.cf/python-101-getting-started-with-python',
     tag_list: ['algorithms', 'learn-coding', 'python', 'python-beginner'],
     social_image: 'none',
   },
@@ -43,12 +43,12 @@ const articles = [
       'Learn about Python syntax, comments, variabes, types, numbers, and casting in one tutorial!',
     readable_publish_date: 'May 8, 2022',
     slug: 'basic-beginner-topics',
-    url: 'https://atomdevelops.hashnode.dev/python-101-syntax-comments-variables-data-types-numbers-and-type-casting',
+    url: 'https://blog.atomdev.cf/python-101-syntax-comments-variables-data-types-numbers-and-type-casting',
     social_image: 'None',
   },
 ]
 
-const DevToArticles = () => {
+const BlogArticles = () => {
   const bg = useColorModeValue('blackAlpha.50', 'whiteAlpha.100')
   const borderColor = useColorModeValue('blackAlpha.300', 'whiteAlpha.100')
   const alphaHover = useColorModeValue(
@@ -127,4 +127,4 @@ const DevToArticles = () => {
   )
 }
 
-export default memo(DevToArticles)
+export default memo(BlogArticles)

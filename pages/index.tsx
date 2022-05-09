@@ -19,7 +19,7 @@ import ScrollMore from 'components/Misc/ScrollMore'
 
 import { Article } from 'types/article'
 // These are on bottom sections so no need to render it instantly
-const DevToArticles = dynamic(() => import('components/Sections/DevToArticles'))
+const BlogArticles = dynamic(() => import('components/Sections/BlogArticles'))
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
 
 const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
@@ -120,7 +120,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
                 paddingX={0}
                 flexDirection={'row'}
               >
-                <DevToArticles />
+                <BlogArticles />
               </Box>
             </FadeInLayout>
             <FadeInLayout>
