@@ -8,7 +8,6 @@ import {
   Divider,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { Article } from 'types/article'
 
 // export interface Article {
 //   id: string

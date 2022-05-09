@@ -60,7 +60,7 @@ const GetInTouch = () => {
         >
           email
         </Link>{' '}
-        anytime and I'll make sure to respond!
+        anytime and I&apos;ll make sure to respond!
       </Text>
 
       <Box

@@ -32,8 +32,8 @@ const FeaturedWorksSection = () => {
       </Heading>
       <Text variant="description">
         Check out some of my projects so far. Most of my biggest projects are
-        privated as they're not supposed to be open-source but I'm working on
-        some open-source projects to showcase.
+        privated as they&apos;re not supposed to be open-source but I&apos;m
+        working on some open-source projects to showcase.
       </Text>
 
       <MotionGrid
