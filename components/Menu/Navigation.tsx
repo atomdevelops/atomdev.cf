@@ -199,6 +199,50 @@ const Navigation = () => {
               Contact
             </Button>
           </Box>
+          <Box
+            width={{ base: '100%', lg: 'auto' }}
+            textAlign={{ base: 'center', lg: 'left' }}
+            marginY={{ base: 2, lg: 0 }}
+          >
+            <Button
+              fontWeight="light"
+              variant="ghost"
+              fontSize={menuButtonSize}
+              letterSpacing={2}
+              className={btnClassName}
+              padding={2}
+              marginX={2}
+              as="a"
+              href="https://blog.atomdev.cf"
+              rel="noreferrer"
+              target="_blank"
+              onClick={onMenuItemClick}
+            >
+              Blog
+            </Button>
+          </Box>
+          <Box
+            width={{ base: '100%', lg: 'auto' }}
+            textAlign={{ base: 'center', lg: 'left' }}
+            marginY={{ base: 2, lg: 0 }}
+          >
+            <Button
+              fontWeight="light"
+              variant="ghost"
+              fontSize={menuButtonSize}
+              letterSpacing={2}
+              className={btnClassName}
+              padding={2}
+              marginX={2}
+              as="a"
+              href="https://github.com/atomdevelops/atomdev.cf"
+              rel="noreferrer"
+              target="_blank"
+              onClick={onMenuItemClick}
+            >
+              Source Code
+            </Button>
+          </Box>
           {!isMobile && (
             <Box>
               <IconButton
