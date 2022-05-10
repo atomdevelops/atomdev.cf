@@ -31,3 +31,11 @@ yarn dev
 yarn run build
 yarn start
 ```
+Open your browser to http://localhost:3000/
+
+### Change Port
+While running the development command, add the `-p` flag along with your desired port.
+```bash
+yarn dev -p 3001
+```
+Then, open your browser to localhost with your new port. (ex. http://localhost:3001)
